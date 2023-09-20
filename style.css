@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+  }
+  
+  body {
+    user-select: none;
+    background-image: url("bg.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    
+  }
+  
+  ::placeholder {
+    color: rgb(221, 221, 221);
+  }
+  
+  .wrapper {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.8s all;
+    background-image: url("bg.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+   
+  }
+  
+  h1 {
+    margin-bottom: 1.5%;
+    color: #fff;
+    font-weight: normal;
+  }
+  
+  .container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 350px;
+    display: flex;
+    border-radius: 2.5rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #FF0000;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    background-color: #000000;
+  }
+  
+  .container:hover {
+    border-color: #FF0000;
+    box-shadow: 0 0 40px #FF0000;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .top-buttons {
+    display: flex;
+    align-items: center;
+
+  
+  }
+  
+  input {
+    padding: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    width: 70px;
+    background-color: rgb(47, 51, 50);
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    margin: 0.2em;
+  }
+  
+  .first-row,
+  .second-row,
+  .third-row,
+  .fourth-row,
+  .fifth-row {
+    margin-bottom: 4px;
+  }
+  
+  input[type="text"] {
+    background-color: rgb(47, 51, 50);
+    width: 222.5px;
+  }
+  
+  input[type="button"]:hover {
+    background-color: rgb(101, 101, 101);
+    color: #fff;
+    box-shadow: 0 0 40px #FF0000;
+  }
+
+  #img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+  }
+   .img{
+    padding-left: 80px;
+    padding-bottom: 8px;
+   }
+
+#clear-button {
+    color: #fff;
+    background-color: #FF0000;
+    
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+   
+  input{
+    border:2px solid #FF0000;
+  }
+
