@@ -4,7 +4,3 @@ Tools used : HTML, CSS & Javascript.
 # ➕ Simple, Smart, and Always Ready | Making Math a Breeze
 # 🔢 From Basic Arithmetic to Complex Calculations | Your Pocket Calculator Companion🌟
                     
-
-Tools used : HTML, CSS & Javascript.
-
-Live Hosted Link : https://musical-kitten-c7a617.netlify.app/
